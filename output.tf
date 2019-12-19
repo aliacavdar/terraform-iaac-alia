@@ -13,4 +13,7 @@ output "key_name" {
 
 output "wordpress"
    value = aws_route53_record.www.aliacavdar.com
-   
+
+   output "IPs" {
+       value = aws_instance.web.*.public_ip 
+       
