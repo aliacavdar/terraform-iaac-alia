@@ -6,6 +6,6 @@ output "sec_group" {
   value = aws_security_group.allow_ssh.name
 } 
 
-output "sec_group" { 
+output "key_name" { 
   value = aws_key_pair.deployer.key_name
 } 
