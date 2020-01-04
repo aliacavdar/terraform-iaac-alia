@@ -1,5 +1,5 @@
  environment = "dev"
-s3_bucket = "backend-state-alia"              #Will be used to set backend.tf
+s3_bucket = "terraform-state-alia"              #Will be used to set backend.tf
 s3_folder_project = "application"             #Will be used to set backend.tf 
 s3_folder_region = "us-east-1"                #Will be used to set backend.tf 
 s3_folder_type = "state"                      #Will be used to set backend.tf 
