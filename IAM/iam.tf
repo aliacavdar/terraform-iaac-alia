@@ -25,7 +25,7 @@ resource "aws_iam_policy" "policy" {
   description = "My test policy" 
   policy = <<EOF 
 { 
-"Version": "2012-10-17", 
+"Version": "2012-10-18", 
 "Statement": [ 
 { 
 "Sid": "VisualEditor0", 
