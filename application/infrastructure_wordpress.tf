@@ -1,8 +1,8 @@
 module "wordpress1" {
   source = "terraform-aws-modules/vpc/aws"
 
-  name = "var.name"
-  cidr = "10.0.0.0/16"
+  name = var.name
+  cidr = var.cidr
 
   azs             = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
   private_subnets = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]

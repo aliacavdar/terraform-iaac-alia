@@ -1,3 +1,4 @@
 veriable "name" {
-    default = "module.wordpress1"
+    default = "wordpress1"
 }
+variable "cidr" {}
