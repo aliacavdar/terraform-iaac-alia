@@ -42,7 +42,7 @@ resource "aws_instance" "tower" {
 
 resource "aws_route53_record" "tower" { 
   zone_id = "ZLLTFA4ZO6PR5" 
-  name    = "tower.example.com" 
+  name    = "tower" 
   type    = "A" 
   ttl     = "300" 
   records = ["${aws_instance.tower.public_ip}"]
