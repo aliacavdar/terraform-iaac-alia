@@ -1,5 +1,5 @@
 resource "aws_route53_record" "www" { 
-  zone_id = "ZONE_ID" 
+  zone_id = "Z365IEHDEEYRKC" 
   name    = "www.aliacavdar.com" 
   type    = "A" 
   ttl     = "60" 

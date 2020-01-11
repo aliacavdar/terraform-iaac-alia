@@ -1,7 +1,14 @@
- variable "name"{
-    default = "wordpress1"
-}
+
+ variable "region" {}
+ variable "name" {}
  variable "cidr" {}
- variable "azs1" {}
- variable "azs2" {}
- variable "azs3" {}
+ variable "az" {}
+
+ variable "pub-cidr" {}
+ variable "priv-cidr {}
+
+ variable "enable_nat_gateway" {}
+ variable "enable_vpn_gateway" {}
+
+ variable "environment" {}
+ variable "terraform" {}
